@@ -1,155 +1,134 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#160d2b">
-  <meta name="description" content="A friendly, privacy-first Garba partner community for adults in Indore. Share your interest and connect only with mutual consent.">
-  <title>Garba Saathi Indore — Find Your Garba Circle</title>
-  <style>
-    :root{--bg:#10091f;--panel:#1c1232;--panel2:#241640;--gold:#ffd27a;--pink:#ff8cba;--cream:#fff8ee;--muted:#c7bbd8;--line:#49315f}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#3a1d52 0,transparent 38%),var(--bg);color:var(--cream);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
-    a{color:inherit}.wrap{width:min(1120px,92%);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;gap:16px}.brand{font-weight:850;letter-spacing:.2px;display:flex;align-items:center;gap:10px}.brand-mark{display:grid;place-items:center;width:38px;height:38px;border-radius:14px;background:linear-gradient(135deg,var(--gold),var(--pink));color:#24102e;font-size:22px}.nav a{font-size:14px;color:var(--muted);text-decoration:none}.nav .nav-cta{background:var(--gold);color:#160d2b;border:2px solid #fff1c9;box-shadow:0 5px 22px #ffd27a30;font-weight:900;padding:12px 16px;white-space:nowrap}.nav .nav-cta:hover{background:#fff0bd;color:#160d2b}.hero{padding:66px 0 76px;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:42px}.eyebrow{display:inline-flex;gap:8px;align-items:center;border:1px solid #70513c;background:#2a1b35;color:var(--gold);border-radius:99px;padding:7px 12px;font-size:12px;font-weight:750;letter-spacing:1.2px;text-transform:uppercase}.eyebrow span{width:7px;height:7px;border-radius:50%;background:var(--pink)}h1{font-size:clamp(42px,7vw,76px);line-height:1.02;letter-spacing:-2.7px;margin:22px 0}h1 em{font-style:normal;color:var(--gold)}.lead{font-size:18px;color:var(--muted);max-width:590px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{display:inline-flex;justify-content:center;align-items:center;text-decoration:none;font-weight:800;border-radius:14px;padding:13px 18px;transition:transform .2s}.btn:hover{transform:translateY(-2px)}.primary{background:linear-gradient(135deg,var(--gold),#ffb6a5);color:#24102e}.secondary{border:1px solid var(--line);background:#201432}.fine{font-size:12px;color:#a99bbd;margin-top:14px}.visual{position:relative;min-height:370px;display:grid;place-items:center}.orb{width:min(330px,78vw);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 50% 50%,#ffdc8b 0 4%,transparent 4.5%),repeating-conic-gradient(from 0deg,#ff8cba 0deg 5deg,transparent 5deg 15deg,#ffd27a 15deg 20deg,transparent 20deg 30deg);mask:radial-gradient(circle,transparent 0 16%,#000 16.5% 19%,transparent 19.5% 25%,#000 25.5% 28%,transparent 28.5% 34%,#000 34.5% 38%,transparent 38.5% 43%,#000 43.5% 47%,transparent 47.5% 53%,#000 53.5% 57%,transparent 57.5% 63%,#000 63.5% 67%,transparent 67.5% 73%,#000 73.5% 77%,transparent 77.5% 83%,#000 83.5% 87%,transparent 87.5% 100%);filter:drop-shadow(0 0 28px #ff8cba33);animation:float 7s ease-in-out infinite}.spark{position:absolute;color:var(--gold);font-size:28px}.s1{top:45px;left:14%}.s2{bottom:45px;right:12%;color:var(--pink)}@keyframes float{50%{transform:rotate(8deg) scale(1.025)}}section{padding:58px 0}.section-head{max-width:650px;margin-bottom:26px}.kicker{color:var(--pink);font-size:12px;font-weight:850;letter-spacing:1.6px;text-transform:uppercase}h2{font-size:clamp(28px,4vw,42px);line-height:1.12;letter-spacing:-1px;margin:8px 0 12px}.sub{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{padding:24px;border:1px solid var(--line);background:linear-gradient(145deg,#211536,#171025);border-radius:22px}.num{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:#382447;color:var(--gold);font-weight:900}.card h3{margin:18px 0 8px;font-size:19px}.card p{color:var(--muted);margin:0;font-size:14px}.safety{background:linear-gradient(110deg,#24163b,#171025);border-block:1px solid var(--line)}.safety-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;align-items:start}.checks{display:grid;grid-template-columns:1fr 1fr;gap:12px}.check{padding:16px;border:1px solid var(--line);border-radius:16px;background:#1a1129;color:var(--muted);font-size:14px}.check b{display:block;color:var(--cream);margin-bottom:4px}.check b:before{content:"✓ ";color:var(--gold)}.join{display:grid;grid-template-columns:1fr auto;align-items:center;gap:24px;padding:30px;border-radius:24px;border:1px solid #71513d;background:linear-gradient(120deg,#352044,#21152f)}.join p{color:var(--muted);margin-bottom:0}.notice{border-left:3px solid var(--gold);padding:12px 16px;background:#1a1129;color:var(--muted);font-size:13px;margin-top:18px}footer{padding:28px 0 38px;color:#a99bbd;font-size:12px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.faq{display:grid;grid-template-columns:1fr 1fr;gap:14px}.faq details{padding:18px;border:1px solid var(--line);border-radius:16px;background:#1a1129}.faq summary{font-weight:750;cursor:pointer}.faq p{color:var(--muted);font-size:14px;margin-bottom:0}.interest-form{margin-top:22px;padding:24px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(145deg,#211536,#171025)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{display:flex;flex-direction:column;gap:6px}.field label{font-weight:750;font-size:14px}.field input,.field select,.field textarea{width:100%;min-height:48px;padding:12px 13px;border:1px solid #604774;border-radius:12px;background:#10091f;color:var(--cream);font:inherit;transition:border-color .18s,box-shadow .18s}.field input::placeholder{color:#a99bbd}.field input:focus,.field select:focus,.field textarea:focus{outline:3px solid #ffd27a30;border-color:var(--gold);box-shadow:0 0 0 1px var(--gold)}.field select option{background:#1c1232;color:var(--cream)}.field small,.form-help{font-size:12px;color:var(--muted)}.form-step{grid-column:1/-1;padding-bottom:10px;border-bottom:1px solid var(--line);color:var(--gold);font-size:12px;font-weight:850;letter-spacing:1.2px;text-transform:uppercase}.interest-form>.btn{border:0;cursor:pointer;font:inherit;font-weight:900;min-height:50px}.interest-form>.btn:focus-visible,.nav .nav-cta:focus-visible{outline:3px solid #fff8ee;outline-offset:3px}.form-result textarea{display:block;width:100%;margin-top:12px;padding:13px;border-radius:12px;background:#10091f;color:var(--cream);border:1px solid #ffd27a;font:inherit;font-size:13px;line-height:1.55;resize:vertical}.copy-again{margin-top:10px;border:1px solid var(--gold);background:var(--gold);color:#160d2b;border-radius:10px;padding:10px 14px;font-weight:850;cursor:pointer}.result-title{font-weight:900;color:var(--gold);margin-bottom:5px}.result-instructions{margin:0 0 10px}.tracking-note{margin:0 0 16px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:#1a1129;color:var(--muted);font-size:12px}.tracking-note strong{color:var(--gold)}.send-notice{margin:20px 0;padding:20px;border:2px solid var(--gold);border-radius:18px;background:linear-gradient(135deg,#4a2a25,#352044);box-shadow:0 0 28px #ffd27a24}.send-notice h3{margin:0 0 8px;color:var(--gold);font-size:clamp(18px,3vw,23px);line-height:1.25}.send-notice p{margin:0;color:var(--cream);font-size:14px}.send-steps{margin:12px 0 8px;font-weight:900;font-size:clamp(14px,2.5vw,17px);line-height:1.7;color:#fff}.send-notice .send-warning{font-weight:800;color:#fff0bd}.form-consent{display:flex;gap:10px;align-items:flex-start;color:var(--muted);font-size:13px;margin:16px 0}.form-consent input{margin-top:5px;accent-color:var(--gold)}.form-result{display:none;margin-top:16px;padding:14px;border-radius:12px;background:#2a1b35;color:var(--cream);font-size:14px}.form-result.show{display:block}@media(max-width:760px){.form-grid{grid-template-columns:1fr}.interest-form{padding:18px}}
-    @media(max-width:760px){.hero{grid-template-columns:1fr;padding:45px 0 35px;gap:8px}.visual{min-height:270px}.orb{width:240px}.grid,.safety-grid,.faq{grid-template-columns:1fr}.checks{grid-template-columns:1fr 1fr}.join{grid-template-columns:1fr}.nav{padding:16px 0}.nav .nav-link{display:none}section{padding:42px 0}h1{letter-spacing:-1.7px}.lead{font-size:16px}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.orb{animation:none}.btn{transition:none}}
-  </style>
-</head>
-<body>
-<header class="wrap nav">
-  <div class="brand"><span class="brand-mark">✺</span><span>Garba Saathi <span style="color:var(--gold)">Indore</span></span></div>
-  <a class="nav-link" href="#how">How it works</a>
-  <a class="nav-link" href="#safety">Safety first</a>
-  <a class="btn primary nav-cta" href="#join">Find My Garba Partner ↗</a>
-</header>
-<main>
-  <section class="wrap hero">
-    <div>
-      <div class="eyebrow"><span></span> Made for Indore • Early interest pilot</div>
-      <h1>Find your people.<br><em>Feel the Garba.</em></h1>
-      <p class="lead">Looking for a Garba partner or a friendly group to enjoy the season with? Answer a few quick questions, then send your ready-made introduction message to us on Instagram. We explore introductions only when both people are interested.</p>
-      <div class="actions"><a class="btn primary" href="#join">Find My Garba Partner ↗</a><a class="btn secondary" href="#how">See how it works</a></div>
-      <p class="fine">For adults aged 18+ only. This is an early-interest pilot, not a guarantee of a match.</p>
-    </div>
-    <div class="visual" aria-hidden="true"><span class="spark s1">✦</span><div class="orb"></div><span class="spark s2">✧</span></div>
-  </section>
-  <section class="wrap" id="how">
-    <div class="section-head"><div class="kicker">Simple by design</div><h2>A better way to find your Garba circle.</h2><p class="sub">No public phone-number lists. No surprise introductions. You stay in control.</p></div>
-    <div class="grid">
-      <article class="card"><div class="num">01</div><h3>Share your interest</h3><p>Tell us your age range, preferred Garba dates and what kind of partner or group you're seeking through a private contact channel.</p></article>
-      <article class="card"><div class="num">02</div><h3>We check mutual interest</h3><p>We only explore a possible introduction when the people involved have opted in. Nobody's number is shared automatically.</p></article>
-      <article class="card"><div class="num">03</div><h3>You choose what happens</h3><p>If both sides agree, you can decide whether to connect. You can decline or withdraw at any time, without pressure.</p></article>
-    </div>
-  </section>
-  <section class="safety" id="safety"><div class="wrap safety-grid">
-    <div><div class="kicker">Privacy is non-negotiable</div><h2>Good vibes.<br>Clear boundaries.</h2><p class="sub">A new connection should feel comfortable—not risky. Please read the ground rules before joining.</p></div>
-    <div class="checks">
-      <div class="check"><b>Private by default</b>Contact details are never displayed publicly or shared without explicit permission.</div>
-      <div class="check"><b>Adults only</b>The pilot is intended only for people aged 18 or older.</div>
-      <div class="check"><b>Meet thoughtfully</b>Choose a public venue, arrange your own transport and tell someone you trust.</div>
-      <div class="check"><b>No false promises</b>We don't guarantee compatibility, identity verification or a successful match.</div>
-    </div>
-  </div></section>
-  <section class="wrap" id="join">
-    <div class="section-head"><div class="kicker">Quick registration</div><h2>Find My Garba Partner</h2><p class="sub">Just a few quick answers. Send your request to us on Instagram, and we’ll contact you if a suitable option becomes available.</p></div>
-    <div class="send-notice" role="note" aria-label="Important: how to submit your request"><h3>📩 WANT TO FIND YOUR GARBA PARTNER?</h3><p>⚠️ <strong>You’re almost done!</strong> We need your message on Instagram to receive your request.</p><div class="send-steps">👇 COPY YOUR MESSAGE → OPEN INSTAGRAM DM → PASTE &amp; SEND</div><p class="send-warning">✅ Your request is received only after you send the message on Instagram.</p></div>
-    <form class="interest-form" id="interestForm">
-      <div class="form-grid">
-        <div class="field"><label for="adult">Are you 18 or older? *</label><select id="adult" name="adult" required><option value="">Choose one</option><option value="yes">Yes, I'm 18+</option><option value="no">No, I'm under 18</option></select></div>
-        <div class="field"><label for="looking">What are you looking for? *</label><select id="looking" name="looking" required><option value="">Choose one</option><option>Garba dance partner</option><option>Garba group</option><option>Someone to attend Garba events with</option></select></div>
-        <div class="field"><label for="preference">Preferred partner *</label><select id="preference" name="preference" required><option value="">Choose one</option><option>Female partner</option><option>Male partner</option><option>No preference</option></select></div>
-        <div class="field"><label for="instagram">Your Instagram username *</label><input id="instagram" name="instagram" required maxlength="40" placeholder="@yourusername" autocomplete="username"><small>We’ll use this to contact you.</small></div>
-      </div>
-      <label class="form-consent"><input type="checkbox" id="consent" required><span>I agree to be contacted about my request. I understand a match is not guaranteed and any fee will be explained before I decide to pay. *</span></label>
-      <button class="btn primary" type="submit">Continue to Submit Request ↗</button>
-      <p class="form-help">Next, Instagram will open with your message ready. Tap Send to submit your request. We cannot receive it until you send that message.</p>
-      <div class="form-result" id="formResult" role="status" aria-live="polite"></div>
-    </form>
-    <div class="notice"><strong style="color:var(--gold)">What happens next?</strong> We review requests and contact you if a suitable option becomes available. With the other person's permission, we may show you their photo/profile. You decide whether to proceed; any fee is explained first. This website does not store your answers.</div>
-  </section>
-  <section class="wrap">
-    <div class="section-head"><div class="kicker">Quick answers</div><h2>Before you join</h2></div>
-    <div class="faq">
-      <details><summary>Does joining guarantee a match?</summary><p>No. This is an early-interest pilot. Matches depend on availability, compatibility and mutual consent.</p></details>
-      <details><summary>Will you share my phone number?</summary><p>Not publicly and not without your explicit permission. Only share details through a private channel you trust.</p></details>
-      <details><summary>Is there a fee right now?</summary><p>No payment is being collected through this website. Any future fee should be explained clearly before you agree.</p></details>
-      <details><summary>Can I change my mind?</summary><p>Yes. You can withdraw your interest and request deletion of information you shared with the operator.</p></details>
-    </div>
-  </section>
-</main>
-<footer class="wrap"><span>© <span id="year"></span> Garba Saathi Indore</span><span>Respect • Consent • Community</span></footer>
-<script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-    const queryParams = new URLSearchParams(window.location.search);
-    const allowedSources = {ig_bio:'Instagram bio',ig_story:'Instagram Story',ig_post:'Instagram post',whatsapp:'WhatsApp',referral:'Friend referral',poster:'Poster / QR code',other:'Other campaign'};
-    const rawSource = (queryParams.get('src') || '').toLowerCase().trim();
-    const campaignSource = allowedSources[rawSource] || 'Direct / untagged';
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    document.getElementById('interestForm').addEventListener('submit', function(event) {
-      event.preventDefault();
-      const data = new FormData(event.currentTarget);
-      const result = document.getElementById('formResult');
-      if (String(data.get('adult')) !== 'yes') {
-        result.textContent = "Sorry, this service is currently for adults aged 18+ only.";
-        result.classList.add('show');
-        return;
-      }
-      const username = String(data.get('instagram') || '').trim().replace(/^@+/, '');
-      if (!/^[a-zA-Z0-9._]{1,30}$/.test(username)) {
-        result.textContent = "Please enter a valid Instagram username, without spaces.";
-        result.classList.add('show');
-        return;
-      }
-      const message = [
-        'Hi Garba Saathi Indore! 🪩 I would like to submit a Garba partner request.',
-        '',
-        'Age: 18+ confirmed',
-        'Looking for: ' + String(data.get('looking') || ''),
-        'Preferred partner: ' + String(data.get('preference') || ''),
-        'Instagram username: @' + username,
-        'Found you via: ' + campaignSource,
-        '',
-        'Please contact me if a suitable option becomes available. I understand a match is not guaranteed and any fee will be explained before I decide to pay.'
-      ].join('\n');
-      result.replaceChildren();
-      const title = document.createElement('div');
-      title.className = 'result-title';
-      title.textContent = 'One last step: send your request';
-      result.appendChild(title);
-      const instructions = document.createElement('p');
-      instructions.className = 'result-instructions';
-      instructions.textContent = 'Copy your message, open our Instagram DM, paste it, and tap Send. We receive your request only after you send it.';
-      result.appendChild(instructions);
-      const box = document.createElement('textarea');
-      box.value = message;
-      box.rows = 8;
-      box.readOnly = true;
-      box.setAttribute('aria-label', 'Your request message');
-      result.appendChild(box);
-      const copyButton = document.createElement('button');
-      copyButton.type = 'button';
-      copyButton.className = 'copy-again';
-      copyButton.textContent = 'Copy message';
-      copyButton.addEventListener('click', async function() {
-        try {
-          await navigator.clipboard.writeText(message);
-          copyButton.textContent = 'Copied ✓';
-        } catch (error) {
-          box.focus(); box.select();
-          copyButton.textContent = 'Message selected — copy it';
+    <title>My Little Corner</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
         }
-      });
-      result.appendChild(copyButton);
-      const dmLink = document.createElement('a');
-      dmLink.href = 'https://ig.me/m/garbasaathi.indore';
-      dmLink.target = '_blank';
-      dmLink.rel = 'noopener noreferrer';
-      dmLink.className = 'btn primary';
-      dmLink.style.cssText = 'margin-top:12px;display:inline-flex';
-      dmLink.textContent = 'Open Instagram to Send ↗';
-      result.appendChild(dmLink);
-      result.classList.add('show');
-      result.scrollIntoView({behavior:'smooth',block:'nearest'});
-    });
-  </script>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f1ea;
+            color: #333;
+        }
+
+        header {
+            background: #2f3e46;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin: 0 0 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #2f3e46;
+        }
+
+        .button {
+            display: inline-block;
+            background: #52796f;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background: #354f52;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #2f3e46;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hello, I'm Awani 🌿</h1>
+        <p>Welcome to my little corner of the internet.</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>About Me</h2>
+
+            <p>
+                Hi! I'm learning how to build websites and this is
+                my very first GitHub project.
+            </p>
+
+            <p>
+                I like psychology, art, writing, nature and
+                exploring new ideas.
+            </p>
+        </section>
+
+        <section>
+            <h2>My Interests</h2>
+
+            <ul>
+                <li>🧠 Psychology</li>
+                <li>🎨 Art & creativity</li>
+                <li>📚 Reading & writing</li>
+                <li>🌿 Nature</li>
+                <li>💻 Learning technology</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>My First Project</h2>
+
+            <p>
+                This website is a small experiment to learn
+                HTML, CSS and GitHub Pages.
+            </p>
+
+            <a href="https://github.com/" class="button">
+                Visit GitHub
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        Made with curiosity 🌱
+    </footer>
+
 </body>
 </html>
